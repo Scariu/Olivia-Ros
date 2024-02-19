@@ -1,0 +1,97 @@
+:root {
+    --plomo: #373A3C;
+    --celeste-oscuro: #17A2B8;
+    --celeste-claro: #56C0E0;
+    --gris-claro: #DDDDDD;
+    --blanco: #FFFFFF;
+    --casi-blanco: #A2CAC129;
+    --negro: #000000;
+    --casi-negro: #0F0F0F;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+  
+
+.navbar{
+    background-color: var(--plomo);
+}
+
+#foto-background {
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55rem;
+}
+
+.h1-img {
+    margin-top: 12rem;
+    color: var(--blanco);
+    font-size: 70px;
+}
+.white-text {
+color: var(--blanco);
+font-weight: 300;
+}
+
+.black-text {
+    color: var(--negro);
+}
+
+.icon-section {
+font-size: 50px;
+}
+
+.size26 {
+    font-size: 26px;
+    } 
+
+.size20 {
+font-size: 20px;
+}
+
+.size19 {
+    font-size: 19px;
+   }
+
+.size16 {
+ font-size: 16px;
+}
+
+.h2-about {
+    font-size: 50px;
+}
+
+.bg-works {
+background-color: var(--celeste-oscuro);
+background-size: cover;
+}
+
+#foto-papas, #foto-asado, #foto-salmon {
+height: 15rem;
+}
+
+.btn-info {
+    background-color: var(--celeste-oscuro);
+}
+footer, footer p {
+    background-color: var(--casi-negro);
+}
